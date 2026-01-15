@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "Fadora's NodeJS"
+        nodejs "NodeJS"
     }
 
     stages {
