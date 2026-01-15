@@ -45,8 +45,7 @@ pipeline {
 
     post {
         always {
-            cleanWs()
-            
+            cleanWs()         
     }
         
     success {
@@ -65,4 +64,3 @@ pipeline {
             )
         }
     }
-
